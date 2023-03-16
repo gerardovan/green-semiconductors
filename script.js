@@ -1,4 +1,4 @@
-const csvUrl = '/database.csv';
+const csvUrl = 'database.csv';
 
 Papa.parse(csvUrl, {
     download: true,
